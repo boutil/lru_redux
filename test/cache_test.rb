@@ -2,7 +2,7 @@ require 'lru_redux'
 require 'minitest/autorun'
 require 'minitest/pride'
 
-class CacheTest < MiniTest::Test
+class CacheTest < Minitest::Test
   def setup
     @c = LruRedux::Cache.new(3)
   end
